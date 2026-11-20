@@ -1,34 +1,59 @@
-# Connect_Frontend_Backend_intro_nodejs
+# Connect Frontend Backend intro nodejs
 
-Source code and project resources for Connect_Frontend_Backend_intro_nodejs.
+**Portfolio project** · A small full-stack introduction connecting a browser frontend with a Node.js backend.
 
 ## Overview
 
-This repository contains the source code and resources for **Connect_Frontend_Backend_intro_nodejs**.
+A small full-stack introduction connecting a browser frontend with a Node.js backend.
 
-## Technologies
+## Technology Stack
 
-- CSS
-- HTML
-- JavaScript
+- `Node.js`
+- `React`
+- `Vite`
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-## Getting Started
+## How the Repository Works
 
-```bash
-git clone https://github.com/Kanishq10/Connect_Frontend_Backend_intro_nodejs.git
-cd Connect_Frontend_Backend_intro_nodejs
+```mermaid
+flowchart LR
+    N0["Client request<br/> HTTP or UI action"]
+    N1["Route<br/> Map the request"]
+    N0 --> N1
+    N2["Controller / Service<br/> Apply application logic"]
+    N1 --> N2
+    N3["Data / Response<br/> Read, update, and return data"]
+    N2 --> N3
 ```
 
-Review the project files and configuration to install dependencies and start the application.
+| Stage | Responsibility |
+|---|---|
+| **Client request** | HTTP or UI action |
+| **Route** | Map the request |
+| **Controller / Service** | Apply application logic |
+| **Data / Response** | Read, update, and return data |
 
-## Repository Contents
+## Concepts Covered
+
+- Component-based UI
+- State and props
+- Event handling
+- Reusable layout
+- Client-side rendering
+
+## Repository Map
 
 - `backend`
 - `frontend`
 - `package-lock.json`
 - `package.json`
-- `readme.md`
 
-## Contributing
+## Recruiter Summary
 
-Contributions are welcome. Fork the repository, create a feature branch, and open a pull request.
+This repository demonstrates practical implementation skills, repository organization, and an end-to-end understanding of the project workflow. It is suitable as a focused example of applied software or data work.
+
+---
+
+<sub>Documentation is concise and project-focused; source code was not modified.</sub>
